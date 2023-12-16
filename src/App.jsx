@@ -1,26 +1,10 @@
 import React from "react";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Hireme from "./components/Hireme";
-import Project from "./components/Project";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import Bot from "./components/Bot.jsx";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Bot />
-      <Hero />
-      <About />
-      <Skills />
-      <Hireme />
-      <Project />
-      <Contact />
-      <Footer />
+    <div className="bg-gray-200 p-8">
+      <h1 className="text-4xl font-bold text-blue-500">Hello, Tailwind CSS!</h1>
+      <p className="text-gray-700 mt-4">This is a Vite + React app with Tailwind CSS.</p>
     </div>
   );
 }
