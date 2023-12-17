@@ -3,3 +3,10 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+html{
+    @apply font-Poppins scroll-smooth;
+}
+body{
+    @apply box-border bg-gray-900 text-gray-100;
+}
