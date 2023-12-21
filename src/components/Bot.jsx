@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import ChatBot from "react-simple-chatbot";
 import { ThemeProvider } from "styled-components";
+import botAvatarImage from "../assets/vite.svg"; 
+
 const steps = [
   {
     id: 1,
