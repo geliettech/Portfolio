@@ -22,6 +22,16 @@ const Skills = () => {
       level: "Intermediate",
       count: 80,
     },
+    {
+      logo: "git-branch-outline",
+      level: "Intermediate",
+      count: 80,
+    },
+    {
+      logo: "logo-github",
+      level: "Intermediate",
+      count: 80,
+    },
   ];
 
   return (

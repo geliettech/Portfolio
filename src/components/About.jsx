@@ -3,7 +3,7 @@ import aboutImg from "../assets/about.png";
 
 const About = () => {
   const info = [
-    { text: "Years Experience", count: "04" },
+    { text: "Years Experience", count: "02" },
     { text: "Completed Projects", count: "18" },
     { text: "Companies Work", count: "02" },
   ];
@@ -18,10 +18,28 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
-                dolor reprehenderit nostrum alias harum odio laborum, unde
-                repellat numquam! Ratione illum expedita quo, assumenda iure
-                similique repellat itaque tempore laudantium.
+                Hi! I'm Uhegbu Ogechi Juliet (OGE), a graduate in Computer
+                Science and Informatics from Federal University Otuoke, Bayelsa
+                State, Nigeria. I derive immense joy from crafting digital
+                experiences that come to life on the internet. My journey into
+                web development commenced in 2020 during my time at the
+                university when I joined the Google Developer Student Club (FUO
+                Chapter). It was there that I discovered my passion for web
+                development by creating a single-page website for my sister's
+                cake business. This early project imparted valuable lessons in
+                HTML and CSS, sparking an interest that set me on an exciting
+                path in the world of web development. In 2022, I had the
+                incredible opportunity to enroll in the Frontend Web Development
+                track at STUTERN Accelerator Cohort 1.4, courtesy of the
+                Afro-Girls scholarship. This year-long program deepened my
+                understanding of HTML, Git and GitHub, CSS, JavaScript, and
+                ReactJS. Beyond technical skills, the program emphasized soft
+                skills such as effective communication and team collaboration.
+                Fast-forward to today, I've been fortunate to work in diverse
+                environments, ranging from startups to large corporations and
+                open-source communities. My primary focus now revolves around
+                creating accessible, inclusive products, and digital experiences
+                for a wide array of clients.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (

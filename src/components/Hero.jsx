@@ -1,12 +1,12 @@
 import React from "react";
-import hero from "../assets/hero.png";
+import hero from "../assets/hero2.png";
 
 const Hero = () => {
   const social_media = [
-    "logo-instagram",
-    "logo-facebook",
-    "logo-linkedin",
-    "logo-twitter",
+   {social_logo: "logo-instagram", social_link: "https://instagram.com/joseph_juliet_oge"} ,
+   {social_logo: "logo-github", social_link: "https://github.com/julietoge"} ,
+   {social_logo: "logo-linkedin", social_link: "https://www.linkedin.com/in/uhegbu-ogechi-juliet"} ,
+   {social_logo: "logo-twitter", social_link: "https://x.com/JulietJosephOge"} ,
   ];
 
   return (
@@ -32,14 +32,19 @@ const Hero = () => {
           <h4 className="md:text-2xl text-lg md:leading-normal leading-10 mt-4 font-bold text-gray-600">
             Frontend Developer
           </h4>
-          <button className="btn-primary mt-8">Contact Me</button>
+          <a href="#contact">
+            <button className="btn-primary mt-8">Contact Me</button>
+          </a>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
             {social_media?.map((icon) => (
               <div
                 key={icon}
                 className="text-gray-600 hover:text-white cursor-pointer"
               >
-                <ion-icon name={icon}></ion-icon>
+                <a href={icon.social_link} target="_blank" rel="noopener noreferrer">
+                <ion-icon name={icon.social_logo}></ion-icon>
+                </a>
+               
               </div>
             ))}
           </div>

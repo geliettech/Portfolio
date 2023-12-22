@@ -1,5 +1,5 @@
 import React from "react";
-import hireMe from "../assets/hireMe.png";
+import hireMe from "../assets/hireMe3.png";
 
 const Hireme = () => {
   return (
@@ -16,11 +16,14 @@ const Hireme = () => {
             Do you want any work from me?
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit
-            qui tempore excepturi fuga amet nam vero at, in, adipisci obcaecati
-            ducimus quis libero molestias eveniet temporibus. Quae, iusto!
+            I bring a strong foundation in HTML, CSS, JavaScript, Git, and
+            ReactJS, along with soft skills like effective communication and
+            collaboration. Having worked in diverse environments, I am dedicated
+            to creating accessible, inclusive digital solutions. I'm excited
+            about the opportunity to contribute to your team. Let's discuss how
+            my skills can bring value to your projects.
           </p>
-          <button className="btn-primary mt-10">Say Hello</button>
+          <a href="#contact"><button className="btn-primary mt-10">Say Hello</button></a>
         </div>
         <img
           src={hireMe}
