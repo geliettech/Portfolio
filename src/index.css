@@ -13,3 +13,6 @@ body{
 .btn-primary {
     @apply bg-cyan-600 font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;
   }
+  .aboutImg::after{
+    @apply content-[''] w-full left-0 top-0 rounded-xl rotate-12 h-full absolute bg-gray-600 -z-10
+  }
