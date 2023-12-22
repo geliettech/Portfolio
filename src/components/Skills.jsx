@@ -39,11 +39,11 @@ const Skills = () => {
             >
               <div
                 style={{
-                  background: `conic-gradient(rgb(8,145,170) ${skill.count}%, #ddd ${skill.count})`,
+                  background: `conic-gradient(rgb(8,145,170) ${skill.count}%, #ddd ${skill.count}%)`,
                 }}
                 className="w-32 h-32 flex items-center justify-center rounded-full"
               >
-                <div className="text-6xl w-28 h-28 bgray-900 rounded-full flex items-center justify-center group-hover:text-cyan-600">
+                <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-cyan-600">
                   <ion-icon name={skill.logo}></ion-icon>
                 </div>
               </div>
