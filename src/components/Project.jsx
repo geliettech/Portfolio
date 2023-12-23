@@ -6,6 +6,7 @@ import project2 from "../assets/images/project-2.jpg";
 import project3 from "../assets/images/project-3.jpg";
 import project4 from "../assets/images/project-4.jpg";
 import project5 from "../assets/images/project-5.png";
+import project6 from "../assets/images/project-6.png";
 import projectPerson from "../assets/images/project_person.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -16,33 +17,39 @@ const Project = () => {
     {
       img: project1,
       name: "Movie App",
-      github_link: "https://github.com/Sridhar-C-25",
+      github_link: "https://github.com/julietoge",
       live_link: "https://myreactflix.netlify.app",
     },
     {
       img: project2,
       name: "Job search Web App",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
+      github_link: "https://github.com/julietoge",
       live_link: "https://myjobsearch.netlify.app",
     },
     {
       img: project3,
       name: "Highking",
-      github_link: "https://github.com/Sridhar-C-25/highking",
+      github_link: "https://github.com/julietoge",
       live_link: "https://highking01.netlify.app",
     },
     {
       img: project4,
       name: "React Nav",
       github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
+        "https://github.com/julietoge",
       live_link: "https://reacttailwindnavbar.netlify.app",
     },
     {
       img: project5,
       name: "Vue Country",
-      github_link: "https://github.com/Sridhar-C-25",
+      github_link: "https://github.com/julietoge",
       live_link: "https://vuecountry05.netlify.app",
+    },
+    {
+      img: project6,
+      name: "Simple Calculator",
+      github_link: "https://github.com/julietoge/Simple-calculator",
+      live_link: "https://julietoge.github.io/Simple-calculator/",
     },
   ];
   return (
