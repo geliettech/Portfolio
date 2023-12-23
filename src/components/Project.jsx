@@ -1,12 +1,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import project1 from "../assets/project-1.png";
-import project2 from "../assets/project-2.jpg";
-import project3 from "../assets/project-3.jpg";
-import project4 from "../assets/project-4.jpg";
-import project5 from "../assets/project-5.png";
-import projectPerson from "../assets/project_person1.png";
+import project1 from "../assets/images/project-1.png";
+import project2 from "../assets/images/project-2.jpg";
+import project3 from "../assets/images/project-3.jpg";
+import project4 from "../assets/images/project-4.jpg";
+import project5 from "../assets/images/project-5.png";
+import projectPerson from "../assets/images/project_person.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
@@ -100,7 +100,7 @@ const Project = () => {
           </Swiper>
         </div>
         <div className="lg:block hidden">
-          <img src={projectPerson} alt="" />
+          <img src={projectPerson} alt="" className="border-b-8 border-cyan-600 rounded-lg" />
         </div>
       </div>
     </section>

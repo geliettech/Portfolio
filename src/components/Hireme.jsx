@@ -1,5 +1,5 @@
 import React from "react";
-import hireMe from "../assets/hireMe3.png";
+import hireMe from "../assets/images/hireMe.png";
 
 const Hireme = () => {
   return (

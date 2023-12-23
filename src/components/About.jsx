@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/about.png";
+import aboutImg from "../assets/images/about.png";
 
 const About = () => {
   const info = [
@@ -17,12 +17,11 @@ const About = () => {
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
             <div className="text-gray-300 my-3">
-              <p className="text-justify leading-7 w-11/12 mx-auto">
-                Hi! I'm Uhegbu Ogechi Juliet (OGE), a graduate in Computer
-                Science and Informatics from Federal University Otuoke, Bayelsa
-                State, Nigeria. I derive immense joy from crafting digital
+              <p className="text-justify leading-7 md:w-11/12 w-full mx-auto">
+                Hi! I'm Uhegbu, Ogechi Juliet (OGE), a Frontend Web Developer, and BSc. Computer
+                Scientist and Informatician who derive immense joy from crafting digital
                 experiences that come to life on the internet. My journey into
-                web development commenced in 2020 during my time at the
+                Frontend web development began in 2020 during my time at the
                 university when I joined the Google Developer Student Club (FUO
                 Chapter). It was there that I discovered my passion for web
                 development by creating a single-page website for my sister's
@@ -55,10 +54,8 @@ const About = () => {
               <br />
               <br />
               <a
-                href="https://drive.google.com/drive/mobile/folders/1LvDwWtRQ1Txc1qZYmfjZquioGoqs0aNq"
-                target="_blank"
+                href="./src/assets/Uhegbu_Ogechi_Juliet_Resume.pdf"
                 download
-                rel="noopener noreferrer"
               >
                 <button className="btn-primary">Download CV</button>
               </a>
