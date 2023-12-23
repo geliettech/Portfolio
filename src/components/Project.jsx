@@ -7,7 +7,7 @@ import project3 from "../assets/images/project-3.jpg";
 import project4 from "../assets/images/project-4.jpg";
 import project5 from "../assets/images/project-5.png";
 import project6 from "../assets/images/project-6.png";
-import projectPerson from "../assets/images/project_person.png";
+import projectPerson from "../assets/images/projectPerson.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
@@ -107,7 +107,7 @@ const Project = () => {
           </Swiper>
         </div>
         <div className="lg:block hidden">
-          <img src={projectPerson} alt="" className="border-b-8 border-cyan-600 rounded-lg" />
+          <img src={projectPerson} alt="" />
         </div>
       </div>
     </section>
