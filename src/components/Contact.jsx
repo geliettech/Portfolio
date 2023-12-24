@@ -1,14 +1,52 @@
-import React from "react";
+import React, { useState } from "react";
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+  const [form, setForm] = useState({ fullname: "", email: "", message: "" });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    const serviceId = 'service_070699';
+    const templateId = 'template_070699';
+    const publicKey = 'Uo99j6RUyHdDUOq_a';
+
+
+    const templateParams = {
+      fullname: form.fullname,
+      email: form.email,
+      message: form.message,
+    };
+
+    emailjs.send(serviceId, templateId, templateParams, publicKey).then((response) => {
+      console.log('Email sent successfully:', response);
+    })
+    .catch((error) => {
+      console.error('Error sending email:', error);
+    });
+
+    setForm({
+      fullname: '',
+      email: '',
+      message: '',
+    });
+
+  }
+
   const contact_info = [
     { logo: "mail", text: "Julietogechi27@gmail.com" },
-    { logo: "logo-telegram", text: "+234 813 8780 831" },
+    { logo: "paper-plane-outline", text: "+234 813 8780 831" },
     {
       logo: "location",
       text: "Nigeria",
     },
   ];
+
   return (
     <section id="contact" className="py-10 px-3 text-white">
       <div className="text-center mt-8">
@@ -21,10 +59,14 @@ const Contact = () => {
           className="mt-16 flex md:flex-row flex-col
          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
         >
-          <form className="flex flex-col flex-1 gap-5">
-            <input type="text" placeholder="Your Name" />
-            <input type="Email" placeholder="Your Email Address" />
-            <textarea placeholder="Your Message" rows={10}></textarea>
+          <form onSubmit={sendEmail} className="flex flex-col flex-1 gap-5">
+            <input type="text" name="fullname" value={form.fullname} onChange={handleChange} placeholder="Your Name" />
+            <input type="Email" name="email" value={form.email} onChange={handleChange} placeholder="Your Email Address" />
+            <textarea
+              name="message" value={form.message} onChange={handleChange}
+              placeholder="Your Message"
+              rows={10}
+            ></textarea>
             <button className="btn-primary w-fit">Send Message</button>
           </form>
           <div className="flex flex-col  gap-7 ">
