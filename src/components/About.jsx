@@ -75,7 +75,7 @@ const About = () => {
               <br />
               <br />
               <a
-                href="./src/assets/Uhegbu_Ogechi_Juliet_Resume.pdf"
+                href="./src/assets/Uhegbu-Ogechi-Juliet-Resume.pdf"
                 download
               >
                 <button className="btn-primary">Download CV</button>
