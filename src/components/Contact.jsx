@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import emailjs from '@emailjs/browser'
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const [form, setForm] = useState({ fullname: "", email: "", message: "" });
+  const [responseMessage, setResponseMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -12,10 +14,9 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    const serviceId = 'service_070699';
-    const templateId = 'template_070699';
-    const publicKey = 'Uo99j6RUyHdDUOq_a';
-
+    const serviceId = "service_070699";
+    const templateId = "template_070699";
+    const publicKey = "Uo99j6RUyHdDUOq_a";
 
     const templateParams = {
       fullname: form.fullname,
@@ -23,20 +24,25 @@ const Contact = () => {
       message: form.message,
     };
 
-    emailjs.send(serviceId, templateId, templateParams, publicKey).then((response) => {
-      console.log('Email sent successfully:', response);
-    })
-    .catch((error) => {
-      console.error('Error sending email:', error);
-    });
+    emailjs
+      .send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log("Email sent successfully:", response);
+        setResponseMessage("Email sent successfully!");
+        setErrorMessage("");
+      })
+      .catch((error) => {
+        console.error("Error sending email:", error);
+        setResponseMessage("");
+        setErrorMessage("Error sending email. Please try again later.");
+      });
 
     setForm({
-      fullname: '',
-      email: '',
-      message: '',
+      fullname: "",
+      email: "",
+      message: "",
     });
-
-  }
+  };
 
   const contact_info = [
     { logo: "mail", text: "Julietogechi27@gmail.com" },
@@ -60,13 +66,31 @@ const Contact = () => {
          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
         >
           <form onSubmit={sendEmail} className="flex flex-col flex-1 gap-5">
-            <input type="text" name="fullname" value={form.fullname} onChange={handleChange} placeholder="Your Name" />
-            <input type="Email" name="email" value={form.email} onChange={handleChange} placeholder="Your Email Address" />
+            <input
+              type="text"
+              name="fullname"
+              value={form.fullname}
+              onChange={handleChange}
+              placeholder="Your Name"
+            />
+            <input
+              type="Email"
+              name="email"
+              value={form.email}
+              onChange={handleChange}
+              placeholder="Your Email Address"
+            />
             <textarea
-              name="message" value={form.message} onChange={handleChange}
+              name="message"
+              value={form.message}
+              onChange={handleChange}
               placeholder="Your Message"
               rows={10}
             ></textarea>
+            {responseMessage && (
+              <p style={{ color: "green" }}>{responseMessage}</p>
+            )}
+            {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
             <button className="btn-primary w-fit">Send Message</button>
           </form>
           <div className="flex flex-col  gap-7 ">
