@@ -1,5 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import aboutImg from "../assets/images/about.png";
+
+
+const ReadMore = ({ children }) => {
+  const text = children;
+  const [isReadMore, setIsReadMore] = useState(true);
+  const toggleReadMore = () => {
+      setIsReadMore(!isReadMore);
+  };
+  return (
+      <p className="text-justify leading-7 md:w-11/12 w-full mx-auto">
+          {isReadMore ? text.slice(0, 600) : text}
+          <span
+              onClick={toggleReadMore}
+              className="text-cyan-600 cursor-pointer"
+          >
+              {isReadMore ? "...read more" : " show less"}
+          </span>
+      </p>
+  );
+};
+
 
 const About = () => {
   const info = [
@@ -17,7 +38,7 @@ const About = () => {
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
             <div className="text-gray-300 my-3">
-              <p className="text-justify leading-7 md:w-11/12 w-full mx-auto">
+              <ReadMore>
                 Hi! I'm Uhegbu, Ogechi Juliet (OGE), a Frontend Web Developer, and BSc. Computer
                 Scientist and Informatician who derive immense joy from crafting digital
                 experiences that come to life on the internet. My journey into
@@ -39,7 +60,7 @@ const About = () => {
                 open-source communities. My primary focus now revolves around
                 creating accessible, inclusive products, and digital experiences
                 for a wide array of clients.
-              </p>
+              </ReadMore>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
                   <div key={content.text}>

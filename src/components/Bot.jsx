@@ -36,26 +36,26 @@ const steps = [
   {
     id: 6,
     message:
-      "OGE is a talented frontend Web Developer and a graduate of computer science and informatics from Federal University Otuoke, Nigeria.",
-    trigger: 3,
+      "OGE is a talented frontend Web Developer and a Bsc.graduate of computer science and informatics from Federal University Otuoke, Nigeria.",
+    trigger: 5,
   },
   {
     id: 7,
     message:
       "OGE offers a range of frontend development services, including web design, responsive layouts, and user interface development.",
-    trigger: 3,
+    trigger: 5,
   },
   {
     id: 8,
     message:
-      "You can connect with OGE via LinkedIn: (https://www.linkedin.com/in/Uhegbu-ogechi-juliet). Feel free to reach out for collaborations or inquiries.",
-    trigger: 3,
+      "You can connect with OGE via LinkedIn: @https://www.linkedin.com/in/Uhegbu-ogechi-juliet. Feel free to reach out for collaborations or inquiries.",
+    trigger: 5,
   },
   {
     id: 9,
     message:
-      "You can reach out to OGE via email at julietogechi27@gmail.com. Whether you have questions, collaboration ideas, or just want to say hello, OGE would love to hear from you! Additionally, you can follow OGE on Twitter: (https://twitter.com/josephjulietogechi) and GitHub: [OGE's GitHub Profile](https://github.com/julietoge). Stay updated on the latest projects and developments!",
-    trigger: 3,
+      "You can reach out to OGE via email at julietogechi27@gmail.com. Whether you have questions, collaboration ideas, or just want to say hello, OGE would love to hear from you! Additionally, you can follow OGE on X: @https://X.com/JulietJosephOge and GitHub: [OGE's GitHub Profile]: @https://github.com/julietoge). Stay updated on the latest projects and developments!",
+    trigger: 5,
   },
 ];
 
