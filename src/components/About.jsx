@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import aboutImg from "../assets/images/about.png";
+import CV from '../assets/Uhegbu-Ogechi-Juliet-Resume.pdf'
 
 
 const ReadMore = ({ children }) => {
@@ -75,7 +76,7 @@ const About = () => {
               <br />
               <br />
               <a
-                href="./src/assets/Uhegbu-Ogechi-Juliet-Resume.pdf"
+                href={CV}
                 download
               >
                 <button className="btn-primary">Download CV</button>
