@@ -46,7 +46,7 @@ const Contact = () => {
 
   const contact_info = [
     { logo: "mail", text: "Julietogechi27@gmail.com" },
-    { logo: "paper-plane-outline", text: "+234 813 8780 831" },
+    { logo: "logo-whatsapp", text: "+234 813 8780 831" },
     {
       logo: "location",
       text: "Nigeria",
