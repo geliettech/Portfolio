@@ -34,10 +34,10 @@ const Project = () => {
     },
     {
       img: project4,
-      name: "React Nav",
+      name: "My Portfolio",
       github_link:
-        "https://github.com/julietoge",
-      live_link: "https://reacttailwindnavbar.netlify.app",
+        "https://github.com/julietoge/Portfolio",
+      live_link: "https://uhegbu-ogechi-juliet.netlify.app/",
     },
     {
       img: project5,
