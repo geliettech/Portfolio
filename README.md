@@ -1,3 +1,1 @@
-# React + Vite
-
-https://tailwindcss.com/docs/guides/vite
+Responsive portfolio using react js and tailwind css
