@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import project1 from "../assets/images/project-1.png";
-import project2 from "../assets/images/project-2.png";
+import project2 from "../assets/images/project-2.jpg";
 import project3 from "../assets/images/project-3.jpg";
 import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
@@ -22,15 +22,15 @@ const Project = () => {
     },
     {
       img: project2,
-      name: "World TimeMapper",
-      github_link: "https://github.com/julietoge/World_TimeMapper",
-      live_link: "https://julietoge.github.io/World_TimeMapper/",
+      name: "Social Links Profile",
+      github_link: "https://github.com/julietoge/Social-Links-Profile",
+      live_link: "https://julietoge.github.io/Social-Links-Profile/",
     },
     {
       img: project3,
-      name: "Highking",
-      github_link: "https://github.com/julietoge",
-      live_link: "https://highking01.netlify.app",
+      name: "Omelette Recipe Page",
+      github_link: "https://github.com/julietoge/omelette-recipe-page",
+      live_link: "https://julietoge.github.io/omelette-recipe-page/",
     },
     {
       img: project4,
@@ -41,9 +41,9 @@ const Project = () => {
     },
     {
       img: project5,
-      name: "Vue Country",
-      github_link: "https://github.com/julietoge",
-      live_link: "https://vuecountry05.netlify.app",
+      name: "Profile Search app",
+      github_link: "https://github.com/julietoge/Profile-Search-App",
+      live_link: "https://profile-search-application001.netlify.app/",
     },
     {
       img: project6,
