@@ -48,13 +48,13 @@ const steps = [
   {
     id: 8,
     message:
-      "You can connect with OGE via LinkedIn: @https://www.linkedin.com/in/Uhegbu-ogechi-juliet. Feel free to reach out for collaborations or inquiries.",
+      "You can connect with OGE via LinkedIn: @https://www.linkedin.com/in/oge-dev. Feel free to reach out for collaborations or inquiries.",
     trigger: 5,
   },
   {
     id: 9,
     message:
-      "You can reach out to OGE via email at julietogechi27@gmail.com. Whether you have questions, collaboration ideas, or just want to say hello, OGE would love to hear from you! Additionally, you can follow OGE on X: @https://X.com/JulietJosephOge and GitHub: [OGE's GitHub Profile]: @https://github.com/julietoge). Stay updated on the latest projects and developments!",
+      "You can reach out to OGE via email at julietogechi27@gmail.com. Whether you have questions, collaboration ideas, or just want to say hello, OGE would love to hear from you! Additionally, you can follow OGE on X: @https://X.com/oge_dev and GitHub: [OGE's GitHub Profile]: @https://github.com/oge-dev). Stay updated on the latest projects and developments!",
     trigger: 5,
   },
 ];
