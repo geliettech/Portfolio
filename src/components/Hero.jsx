@@ -3,10 +3,10 @@ import hero from "../assets/images/hero.png";
 
 const Hero = () => {
   const social_media = [
-   {social_logo: "logo-instagram", social_link: "https://instagram.com/joseph_juliet_oge"} ,
-   {social_logo: "logo-github", social_link: "https://github.com/julietoge"} ,
-   {social_logo: "logo-linkedin", social_link: "https://www.linkedin.com/in/uhegbu-ogechi-juliet"} ,
-   {social_logo: "logo-twitter", social_link: "https://x.com/JulietJosephOge"} ,
+   {social_logo: "logo-instagram", social_link: "https://instagram.com/oge.dev"} ,
+   {social_logo: "logo-github", social_link: "https://github.com/oge-dev"} ,
+   {social_logo: "logo-linkedin", social_link: "https://www.linkedin.com/in/oge-dev"} ,
+   {social_logo: "logo-twitter", social_link: "https://x.com/oge_dev"} ,
   ];
 
   return (
