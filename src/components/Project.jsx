@@ -2,8 +2,8 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import project1 from "../assets/images/project-1.png";
-import project2 from "../assets/images/project-2.jpg";
-import project3 from "../assets/images/project-3.jpg";
+import project2 from "../assets/images/project-2.png";
+import project3 from "../assets/images/project-3.png";
 import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
 import project6 from "../assets/images/project-6.png";
@@ -16,40 +16,40 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: "Movie App",
-      github_link: "https://github.com/julietoge",
-      live_link: "https://myreactflix.netlify.app",
+      name: "My Portfolio",
+      github_link:
+        "https://github.com/oge-dev/Portfolio",
+      live_link: "https://uhegbu-ogechi-juliet.vercel.app/",
     },
     {
       img: project2,
-      name: "Social Links Profile",
-      github_link: "https://github.com/julietoge/Social-Links-Profile",
-      live_link: "https://julietoge.github.io/Social-Links-Profile/",
+      name: "Netflix LandingPage Clone",
+      github_link: "https://github.com/oge-dev/NetflixLandingpage_clone",
+      live_link: "https://netflixlandingpage-clone.vercel.app/",
     },
     {
       img: project3,
-      name: "Omelette Recipe Page",
-      github_link: "https://github.com/julietoge/omelette-recipe-page",
-      live_link: "https://julietoge.github.io/omelette-recipe-page/",
+      name: "Social Links Profile",
+      github_link: "https://github.com/oge-dev/Social-Links-Profile",
+      live_link: "https://social-links-profile-oge.vercel.app/",
     },
     {
       img: project4,
-      name: "My Portfolio",
-      github_link:
-        "https://github.com/julietoge/Portfolio",
-      live_link: "https://uhegbu-ogechi-juliet.netlify.app/",
+      name: "Movie App",
+      github_link: "https://github.com/oge-dev",
+      live_link: "https://myreactflix.netlify.app",
     },
     {
       img: project5,
       name: "Profile Search app",
-      github_link: "https://github.com/julietoge/Profile-Search-App",
-      live_link: "https://profile-search-application001.netlify.app/",
+      github_link: "https://github.com/oge-dev/Profile-Search-App",
+      live_link: "https://profile-search-app-byoge.vercel.app/",
     },
     {
       img: project6,
       name: "Simple Calculator",
-      github_link: "https://github.com/julietoge/Simple-calculator",
-      live_link: "https://julietoge.github.io/Simple-calculator/",
+      github_link: "https://github.com/oge-dev/Simple-calculator",
+      live_link: "https://simple-calculator-byoge.vercel.app/",
     },
   ];
   return (
