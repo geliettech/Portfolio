@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import aboutImg from "../assets/images/about.png";
-import CV from '../assets/Uhegbu-Ogechi-Juliet-Resume.pdf'
+import CV from '../assets/Resume-FrontendDevelopment.pdf'
 
 
 const ReadMore = ({ children }) => {

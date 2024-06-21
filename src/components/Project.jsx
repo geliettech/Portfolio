@@ -24,8 +24,8 @@ const Project = () => {
     {
       img: project2,
       name: "Netflix LandingPage Clone",
-      github_link: "https://github.com/oge-dev/NetflixLandingpage_clone",
-      live_link: "https://netflixlandingpage-clone.vercel.app/",
+      github_link: "https://github.com/oge-dev/N-Landingpage-Clone",
+      live_link: "https://n-landingpage-clone.vercel.app/",
     },
     {
       img: project3,
@@ -35,9 +35,9 @@ const Project = () => {
     },
     {
       img: project4,
-      name: "Movie App",
-      github_link: "https://github.com/oge-dev",
-      live_link: "https://myreactflix.netlify.app",
+      name: "Star Wars movies",
+      github_link: "https://github.com/oge-dev/Star-Wars-franchise/tree/movies",
+      live_link: "https://star-wars-movies-byoge.netlify.app/",
     },
     {
       img: project5,
