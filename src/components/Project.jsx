@@ -49,7 +49,7 @@ const Project = () => {
       img: project6,
       name: "Simple Calculator",
       github_link: "https://github.com/oge-dev/Simple-calculator",
-      live_link: "https://simple-calculator-byoge.vercel.app/",
+      live_link: "https://oge-dev.github.io/Simple-calculator/",
     },
   ];
   return (
