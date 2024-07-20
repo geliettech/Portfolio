@@ -25,7 +25,7 @@ const Project = () => {
       img: project2,
       name: "Netflix LandingPage Clone",
       github_link: "https://github.com/oge-dev/NetflixClone.git",
-      live_link: "https://clone-hazel-eight.vercel.app/",
+      live_link: "https://oge-dev.github.io/NetflixClone/",
     },
     {
       img: project3,
