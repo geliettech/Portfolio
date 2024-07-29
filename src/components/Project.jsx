@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+import project from "../assets/images/project.png";
 import project1 from "../assets/images/project-1.png";
 import project2 from "../assets/images/project-2.png";
 import project3 from "../assets/images/project-3.png";
@@ -15,17 +16,24 @@ import { Pagination, Autoplay } from "swiper/modules";
 const Project = () => {
   const projects = [
     {
+      img: project,
+      name: "Star Wars movies",
+      github_link: "https://github.com/oge-dev/Star-Wars-franchise/tree/movies",
+      live_link: "https://star-wars-movies-byoge.netlify.app/",
+    },
+    {
       img: project1,
+      name: "Todo List App",
+      github_link:
+        "https://github.com/oge-dev/TodoList-App",
+      live_link: "https://oge-dev.github.io/TodoList-App/",
+    },
+    {
+      img: project2,
       name: "My Portfolio",
       github_link:
         "https://github.com/oge-dev/Portfolio",
       live_link: "https://uhegbu-ogechi-juliet.vercel.app/",
-    },
-    {
-      img: project2,
-      name: "Netflix LandingPage Clone",
-      github_link: "https://github.com/oge-dev/NetflixClone.git",
-      live_link: "https://oge-dev.github.io/NetflixClone/",
     },
     {
       img: project3,
@@ -35,9 +43,9 @@ const Project = () => {
     },
     {
       img: project4,
-      name: "Star Wars movies",
-      github_link: "https://github.com/oge-dev/Star-Wars-franchise/tree/movies",
-      live_link: "https://star-wars-movies-byoge.netlify.app/",
+      name: "Netflix LandingPage Clone",
+      github_link: "https://github.com/oge-dev/NetflixClone.git",
+      live_link: "https://oge-dev.github.io/NetflixClone/",
     },
     {
       img: project5,
