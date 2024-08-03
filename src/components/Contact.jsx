@@ -16,7 +16,7 @@ const Contact = () => {
 
     const serviceId = "service_070699";
     const templateId = "template_070699";
-    const publicKey = "Uo99j6RUyHdDUOq_a";
+    const publicKey = "1EKhg2mgb3zDOvQWM";
 
     const templateParams = {
       fullname: form.fullname,
