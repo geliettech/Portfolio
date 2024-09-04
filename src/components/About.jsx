@@ -1,27 +1,24 @@
 import React, { useState } from "react";
 import aboutImg from "../assets/images/about.png";
-import CV from '../assets/Resume-FrontendDevelopment.pdf'
-
+import CV from "../assets/Resume-FrontendDevelopment.pdf";
 
 const ReadMore = ({ children }) => {
   const text = children;
   const [isReadMore, setIsReadMore] = useState(true);
+
   const toggleReadMore = () => {
-      setIsReadMore(!isReadMore);
+    setIsReadMore(!isReadMore);
   };
+
   return (
-      <p className="text-justify leading-7 md:w-11/12 w-full mx-auto">
-          {isReadMore ? text.slice(0, 600) : text}
-          <span
-              onClick={toggleReadMore}
-              className="text-cyan-600 cursor-pointer"
-          >
-              {isReadMore ? "...read more" : " show less"}
-          </span>
-      </p>
+    <p className="text-justify leading-7 md:w-11/12 w-full mx-auto">
+      {isReadMore ? text.slice(0, 400) : text}
+      <span onClick={toggleReadMore} className="text-cyan-600 cursor-pointer">
+        {isReadMore ? "...read more" : " show less"}
+      </span>
+    </p>
   );
 };
-
 
 const About = () => {
   const info = [
@@ -29,6 +26,7 @@ const About = () => {
     { text: "Completed Projects", count: "18" },
     { text: "Companies Work", count: "02" },
   ];
+
   return (
     <section id="about" className="py-10 text-white">
       <div className="text-center mt-8">
@@ -40,32 +38,35 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <ReadMore>
-                Hi! I'm Uhegbu, Ogechi Juliet (OGE), a Frontend Web Developer, and BSc. Computer
-                Scientist and Informatician who derive immense joy from crafting digital
-                experiences that come to life on the internet. My journey into
-                Frontend web development began in 2020 during my time at the
-                university when I joined the Google Developer Student Club (FUO
-                Chapter). It was there that I discovered my passion for web
-                development by creating a single-page website for my sister's
-                cake business. This early project imparted valuable lessons in
-                HTML and CSS, sparking an interest that set me on an exciting
-                path in the world of web development. In 2022, I had the
-                incredible opportunity to enroll in the Frontend Web Development
-                track at STUTERN Accelerator Cohort 1.4, courtesy of the
-                Afro-Girls scholarship. This year-long program deepened my
-                understanding of HTML, Git and GitHub, CSS, JavaScript, and
-                ReactJS. Beyond technical skills, the program emphasized soft
-                skills such as effective communication and team collaboration.
-                Fast-forward to today, I've been fortunate to work in diverse
-                environments, ranging from startups to large corporations and
-                open-source communities. My primary focus now revolves around
-                creating accessible, inclusive products, and digital experiences
-                for a wide array of clients.
+                Hi👋! I'm Uhegbu Ogechi Juliet, OGE for Short. 
+
+                I'm a passionate and dedicated Front-End Developer with a
+                BSc in Computer Science and Informatics. I specialize in
+                creating user-friendly websites and web applications, focusing
+                on intuitive and engaging user interfaces. Skilled in HTML,
+                CSS, JavaScript, ReactJS, Git, GitHub, SEO, Technical Writing,
+                System Design etc. Beyond technical skills, the program
+                emphasized soft skills such as problem solving, effective
+                communication and team collaboration.
+                
+                My journey into Frontend development began in 2020 with the
+                Google Developer Student Club, where I developed a single-page
+                website. This sparked my passion for web development. In 2022,
+                I advanced my skills in HTML, CSS, JavaScript, and ReactJS
+                at the STUTERN Accelerator, supported by the Afro-Girls
+                scholarship.
+
+                Fast-forward to today, I've proven ability to work in diverse
+                environments, from startups to large corporations and
+                open-source communities. My focus is on building accessible
+                and inclusive digital experiences, and I'm committed to
+                continuous improvement and staying current with the latest
+                technologies.
               </ReadMore>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
                   <div key={content.text}>
-                    <h3 className="md:text-4x text-2xl font-semibold text-white">
+                    <h3 className="md:text-4xl text-2xl font-semibold text-white">
                       {content.count}
                       <span className="text-cyan-600">+</span>
                     </h3>
@@ -75,10 +76,7 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a
-                href={CV}
-                download
-              >
+              <a href={CV} download>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>

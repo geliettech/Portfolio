@@ -27,34 +27,34 @@ const steps = [
   {
     id: 5,
     options: [
-      { value: 1, label: "About OGE", trigger: 6 },
-      { value: 2, label: "OGE services", trigger: 7 },
-      { value: 3, label: "Connect with OGE", trigger: 8 },
-      { value: 4, label: "Contact OGE", trigger: 9 },
+      { value: 1, label: "About us", trigger: 6 },
+      { value: 2, label: "Our services", trigger: 7 },
+      { value: 3, label: "Connection", trigger: 8 },
+      { value: 4, label: "Contact", trigger: 9 },
     ],
   },
   {
     id: 6,
     message:
-      "OGE is a talented frontend Web Developer and a Bsc.graduate of computer science and informatics from Federal University Otuoke, Nigeria.",
+      "OGE is a talented frontend Web Developer and a BSc computer scientist.",
     trigger: 5,
   },
   {
     id: 7,
     message:
-      "OGE offers a range of frontend development services, including web design, responsive layouts, and user interface development.",
+      "Our services includes Frontend Web development, Search Engine Optimization(SEO), Web development, Technical writing, Unit Testing, Data Entry, and Project management.",
     trigger: 5,
   },
   {
     id: 8,
     message:
-      "You can connect with OGE via LinkedIn: @https://www.linkedin.com/in/oge-dev. Feel free to reach out for collaborations or inquiries.",
+      "You can connect with OGE via LinkedIn @oge-dev or X @oge_dev. To stay updated on the latest projects and developments!",
     trigger: 5,
   },
   {
     id: 9,
     message:
-      "You can reach out to OGE via email at julietogechi27@gmail.com. Whether you have questions, collaboration ideas, or just want to say hello, OGE would love to hear from you! Additionally, you can follow OGE on X: @https://X.com/oge_dev and GitHub: [OGE's GitHub Profile]: @https://github.com/oge-dev). Stay updated on the latest projects and developments!",
+      "You can reach out to us via email at julietogechi27@gmail.com. Whether you have projects for us to complete for you, questions, collaboration ideas, or just want to say hello, We would love to hear from you!",
     trigger: 5,
   },
 ];
