@@ -16,6 +16,12 @@ const Skills = () => {
       count: 90,
     },
     {
+      logo: "logo-sass",
+      skillname: "SASS",
+      level: "Intermediate",
+      count: 70,
+    },
+    {
       logo: "git-branch-outline",
       skillname: "Git",
       level: "Intermediate",
@@ -38,12 +44,6 @@ const Skills = () => {
       skillname: "ReactJS",
       level: "Intermediate",
       count: 80,
-    },
-    {
-      logo: "logo-sass",
-      skillname: "SASS",
-      level: "Intermediate",
-      count: 70,
     },
     {
       logo: "logo-nextjs",
@@ -73,7 +73,10 @@ const Skills = () => {
                 className="w-32 h-32 flex items-center justify-center rounded-full"
               >
                 <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-cyan-600">
-                  <ion-icon name={skill.logo} title={skill.skillname}></ion-icon>
+                  <ion-icon
+                    name={skill.logo}
+                    title={skill.skillname}
+                  ></ion-icon>
                 </div>
               </div>
               <p className="text-xl mt-3">{skill.level}</p>
