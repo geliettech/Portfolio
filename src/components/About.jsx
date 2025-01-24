@@ -23,7 +23,7 @@ const ReadMore = ({ children }) => {
 const About = () => {
   const info = [
     { text: "Years Experience", count: "02" },
-    { text: "Completed Projects", count: "18" },
+    { text: "Completed Projects", count: "10" },
     { text: "Companies Work", count: "02" },
   ];
 
@@ -38,30 +38,29 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <ReadMore>
-                Hi👋! I'm Uhegbu Ogechi Juliet, OGE for Short. 
-
-                I'm a passionate and dedicated Front-End Developer with a
-                BSc in Computer Science and Informatics. I specialize in
-                creating user-friendly websites and web applications, focusing
-                on intuitive and engaging user interfaces. Skilled in HTML,
-                CSS, JavaScript, ReactJS, Git, GitHub, SEO, Technical Writing,
-                System Design etc. Beyond technical skills, the program
-                emphasized soft skills such as problem solving, effective
-                communication and team collaboration.
-                
-                My journey into Frontend development began in 2020 with the
-                Google Developer Student Club, where I developed a single-page
-                website. This sparked my passion for web development. In 2022,
-                I advanced my skills in HTML, CSS, JavaScript, and ReactJS
-                at the STUTERN Accelerator, supported by the Afro-Girls
-                scholarship.
-
-                Fast-forward to today, I've proven ability to work in diverse
-                environments, from startups to large corporations and
-                open-source communities. My focus is on building accessible
-                and inclusive digital experiences, and I'm committed to
-                continuous improvement and staying current with the latest
-                technologies.
+                Hi 👋! I'm Uhegbu Ogechi Juliet, also known as OGE. I am a
+                dedicated computer science graduate 🎓 with a solid foundation
+                in programming, web development, and software engineering
+                principles 💻. My expertise lies in designing and building
+                user-friendly websites and web applications 🌐, with a focus on
+                intuitive and engaging user interfaces 🎨. I am proficient in
+                HTML, CSS, JavaScript, ReactJS, Next.js, Git, GitHub, SEO,
+                technical writing, system design, and more 🚀. Beyond my
+                technical skills, I possess strong problem-solving abilities,
+                in-depth knowledge of modern technologies 🔧, and effective
+                communication skills 🗣️, enabling seamless collaboration within
+                teams. My passion for front-end development began in 2020 when I
+                joined the Google Developer Student Club 👩‍💻, where I developed a
+                single-page website that ignited my interest in web development.
+                In 2022, I further enhanced my skills in HTML, CSS, Sass, JavaScript,
+                ReactJS and Next.js through the STUTERN Accelerator program,
+                supported by the Afro-Girls scholarship🌟. Today, I have proven
+                my ability to contribute to innovative and impactful projects
+                across diverse environments, including startups, large
+                corporations, and open-source communities 🌍. I am dedicated to
+                creating accessible and inclusive digital experiences 🌈 while
+                staying committed to continuous improvement and keeping up with
+                the latest technologies 🔄.
               </ReadMore>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
