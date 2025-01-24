@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import project_ from "../assets/images/project11.png";
+import project__ from "../assets/images/project22.jpg";
 import project from "../assets/images/project.png";
 import project1 from "../assets/images/project-1.png";
 import project2 from "../assets/images/project-2.png";
@@ -15,6 +16,19 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 const Project = () => {
   const projects = [
+    {
+      img: project_,
+      name: "Launch Countdown Timer",
+      github_link: "https://github.com/oge-dev/Launch-Countdown-Timer",
+      live_link: "https://launch-countdown-timer-365e6e.netlify.app/",
+    },
+    {
+      img: project__,
+      name: "Rest Countries API",
+      github_link:
+        "https://github.com/oge-dev/rest-countries-api-with-color-theme-switcher",
+      live_link: "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
+    },
     {
       img: project,
       name: "Star Wars movies",
