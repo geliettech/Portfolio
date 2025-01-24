@@ -45,6 +45,12 @@ const Skills = () => {
       level: "Intermediate",
       count: 70,
     },
+    {
+      logo: "logo-nextjs",
+      skillname: "Next.js",
+      level: "Next.js Beginner",
+      count: 50,
+    },
   ];
 
   return (
