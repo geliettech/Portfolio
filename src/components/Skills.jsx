@@ -46,7 +46,7 @@ const Skills = () => {
       count: 80,
     },
     {
-      logo: "logo-nextjs",
+      logo: "logo-next",
       skillname: "Next.js",
       level: "Next.js",
       count: 50,

@@ -27,7 +27,7 @@ const Hero = () => {
               Hello!
               <br />
             </span>
-            My name is <span>Uhegbu, Ogechi Juliet</span>
+            My name is <span>Ogechi Juliet Uhegbu</span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-10 mt-4 font-bold text-gray-600">
             Frontend Software Developer

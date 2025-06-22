@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import aboutImg from "../assets/images/about.png";
-import CV from "../assets/ogechiJulietUhegbu-CV.pdf";
+import CV from "../assets/Frontend-Developer-OGECHI-JULIET-UHEGBU.pdf";
 
 const ReadMore = ({ children }) => {
   const text = children;
@@ -38,29 +38,30 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <ReadMore>
-                Hi 👋! I'm Uhegbu Ogechi Juliet, also known as OGE. I am a
-                dedicated computer science graduate 🎓 with a solid foundation
-                in programming, web development, and software engineering
-                principles 💻. My expertise lies in designing and building
-                user-friendly websites and web applications 🌐, with a focus on
-                intuitive and engaging user interfaces 🎨. I am proficient in
-                HTML, CSS, JavaScript, ReactJS, Next.js, Git, GitHub, SEO,
-                technical writing, system design, and more 🚀. Beyond my
-                technical skills, I possess strong problem-solving abilities,
-                in-depth knowledge of modern technologies 🔧, and effective
-                communication skills 🗣️, enabling seamless collaboration within
-                teams. My passion for front-end development began in 2020 when I
-                joined the Google Developer Student Club 👩‍💻, where I developed a
-                single-page website that ignited my interest in web development.
-                In 2022, I further enhanced my skills in HTML, CSS, Sass, JavaScript,
-                ReactJS and Next.js through the STUTERN Accelerator program,
-                supported by the Afro-Girls scholarship🌟. Today, I have proven
-                my ability to contribute to innovative and impactful projects
-                across diverse environments, including startups, large
-                corporations, and open-source communities 🌍. I am dedicated to
-                creating accessible and inclusive digital experiences 🌈 while
-                staying committed to continuous improvement and keeping up with
-                the latest technologies 🔄.
+                Hi 👋! I'm Ogechi Juliet Uhegbu, also known as OGE. I’m deeply
+                passionate about technology, which led me to earn a BSc in
+                Computer Science & Informatics. This academic journey equipped
+                me with a solid foundation in programming, web development,
+                software engineering principles, and problem-solving. I
+                specialize in building responsive, accessible, and user-friendly
+                web interfaces using technologies like HTML, CSS, JavaScript,
+                React, TypeScript, and Next.js—skills I honed through the Stutern
+                Accelerator and continuous self-learning. I’ve contributed to
+                projects across diverse sectors, including architecture,
+                textiles, and women’s charities, focusing on intuitive and
+                engaging user experiences. As a committed lifelong learner, I
+                actively explore new technologies, frameworks, and best
+                practices. My growth mindset enables me to adapt quickly, solve
+                complex problems creatively, and thrive in fast-paced
+                environments. I genuinely enjoy collaborating with designers,
+                backend developers, and cross-functional teams to bring ideas to
+                life. My development approach emphasizes clarity, teamwork, and
+                empathy. Fun Facts About Me: 🚀I love space, JavaScript,
+                React.js, teamwork, and family time. ❌I dislike comparison,
+                lateness, and procrastination. Long-Term Goal: To become a
+                well-rounded software developer, capable of building scalable
+                applications that solve real-world problems and improve everyday
+                life.
               </ReadMore>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
