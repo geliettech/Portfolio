@@ -9,6 +9,7 @@ import project3 from "../assets/images/project-3.png";
 import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
 import project6 from "../assets/images/project-6.png";
+import project7 from "../assets/images/Project7.png";
 import projectPerson from "../assets/images/projectPerson.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -17,10 +18,11 @@ import { Pagination, Autoplay } from "swiper/modules";
 const Project = () => {
   const projects = [
     {
-      img: project_,
-      name: "Launch Countdown Timer",
-      github_link: "https://github.com/oge-dev/Launch-Countdown-Timer",
-      live_link: "https://launch-countdown-timer-365e6e.netlify.app/",
+      img: project2,
+      name: "My Portfolio",
+      github_link:
+        "https://github.com/oge-dev/Portfolio",
+      live_link: "https://uhegbu-ogechi-juliet.vercel.app/",
     },
     {
       img: project__,
@@ -30,24 +32,10 @@ const Project = () => {
       live_link: "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
     },
     {
-      img: project,
-      name: "Star Wars movies",
-      github_link: "https://github.com/oge-dev/Star-Wars-franchise/tree/movies",
-      live_link: "https://star-wars-movies-byoge.netlify.app/",
-    },
-    {
-      img: project1,
-      name: "Todo List App",
-      github_link:
-        "https://github.com/oge-dev/TodoList-App",
-      live_link: "https://oge-dev.github.io/TodoList-App/",
-    },
-    {
-      img: project2,
-      name: "My Portfolio",
-      github_link:
-        "https://github.com/oge-dev/Portfolio",
-      live_link: "https://uhegbu-ogechi-juliet.vercel.app/",
+      img: project_,
+      name: "Launch Countdown Timer",
+      github_link: "https://github.com/oge-dev/Launch-Countdown-Timer",
+      live_link: "https://launch-countdown-timer-365e6e.netlify.app/",
     },
     {
       img: project3,
@@ -62,16 +50,35 @@ const Project = () => {
       live_link: "https://oge-dev.github.io/NetflixClone/",
     },
     {
+      img: project6,
+      name: "Simple Calculator",
+      github_link: "https://github.com/oge-dev/Simple-calculator",
+      live_link: "https://oge-dev.github.io/Simple-calculator/",
+    },
+    {
+      img: project7,
+      name: "Baby Zoo Quiz",
+      github_link: "https://github.com/geliettech/Baby-Zoo-Quiz",
+      live_link: "https://geliettech.github.io/Baby-Zoo-Quiz/index.html",
+    },
+    {
       img: project5,
       name: "Profile Search app",
       github_link: "https://github.com/oge-dev/Profile-Search-App",
       live_link: "https://profile-search-app-byoge.vercel.app/",
     },
     {
-      img: project6,
-      name: "Simple Calculator",
-      github_link: "https://github.com/oge-dev/Simple-calculator",
-      live_link: "https://oge-dev.github.io/Simple-calculator/",
+      img: project,
+      name: "Star Wars movies",
+      github_link: "https://github.com/oge-dev/Star-Wars-franchise/tree/movies",
+      live_link: "https://star-wars-movies-byoge.netlify.app/",
+    },
+    {
+      img: project1,
+      name: "Todo List App",
+      github_link:
+        "https://github.com/oge-dev/TodoList-App",
+      live_link: "https://oge-dev.github.io/TodoList-App/",
     },
   ];
   return (
