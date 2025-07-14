@@ -21,39 +21,39 @@ const Project = () => {
       img: project2,
       name: "My Portfolio",
       github_link:
-        "https://github.com/oge-dev/Portfolio",
+        "https://github.com/geliettech/Portfolio",
       live_link: "https://uhegbu-ogechi-juliet.vercel.app/",
     },
     {
       img: project__,
       name: "Rest Countries API",
       github_link:
-        "https://github.com/oge-dev/rest-countries-api-with-color-theme-switcher",
+        "https://github.com/geliettech/rest-countries-api-with-color-theme-switcher",
       live_link: "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
     },
     {
       img: project_,
       name: "Launch Countdown Timer",
-      github_link: "https://github.com/oge-dev/Launch-Countdown-Timer",
+      github_link: "https://github.com/geliettech/Launch-Countdown-Timer",
       live_link: "https://launch-countdown-timer-365e6e.netlify.app/",
     },
     {
       img: project3,
       name: "Social Links Profile",
-      github_link: "https://github.com/oge-dev/Social-Links-Profile",
+      github_link: "https://github.com/geliettech/Social-Links-Profile",
       live_link: "https://social-links-profile-oge.vercel.app/",
     },
     {
       img: project4,
       name: "Netflix LandingPage Clone",
-      github_link: "https://github.com/oge-dev/NetflixClone.git",
-      live_link: "https://oge-dev.github.io/NetflixClone/",
+      github_link: "https://github.com/geliettech/NetflixClone.git",
+      live_link: "https://geliettech.github.io/NetflixClone/",
     },
     {
       img: project6,
       name: "Simple Calculator",
-      github_link: "https://github.com/oge-dev/Simple-calculator",
-      live_link: "https://oge-dev.github.io/Simple-calculator/",
+      github_link: "https://github.com/geliettech/Simple-calculator",
+      live_link: "https://geliettech.github.io/Simple-calculator/",
     },
     {
       img: project7,
@@ -64,21 +64,21 @@ const Project = () => {
     {
       img: project5,
       name: "Profile Search app",
-      github_link: "https://github.com/oge-dev/Profile-Search-App",
+      github_link: "https://github.com/geliettech/Profile-Search-App",
       live_link: "https://profile-search-app-byoge.vercel.app/",
     },
     {
       img: project,
       name: "Star Wars movies",
-      github_link: "https://github.com/oge-dev/Star-Wars-franchise/tree/movies",
+      github_link: "https://github.com/geliettech/Star-Wars-franchise/tree/movies",
       live_link: "https://star-wars-movies-byoge.netlify.app/",
     },
     {
       img: project1,
       name: "Todo List App",
       github_link:
-        "https://github.com/oge-dev/TodoList-App",
-      live_link: "https://oge-dev.github.io/TodoList-App/",
+        "https://github.com/geliettech/TodoList-App",
+      live_link: "https://geliettech.github.io/TodoList-App/",
     },
   ];
   return (
