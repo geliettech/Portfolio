@@ -10,7 +10,7 @@ const Hireme = () => {
         </h3>
         <p className="text-gray-400 mt-3 text-lg">Do you have any work?</p>
       </div>
-      <div className="bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse items-center">
+      <div className="bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-16 flex gap-6 lg:flex-row flex-col-reverse items-center">
         <div>
           <h2 className="text-2xl font-semibold">
           Need a frontend / Web developer?
@@ -24,8 +24,8 @@ const Hireme = () => {
         </div>
         <img
           src={hireMe}
-          alt=""
-          className="lg:h-[32rem] h-80 lg:absolute bottom-0 -right-3 object-cover"
+          alt="hireMe"
+          className="lg:h-[30rem] h-80 lg:absolute bottom-0 -right-3 object-cover"
         />
       </div>
     </section>
