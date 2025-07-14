@@ -31,37 +31,35 @@ const About = () => {
     <section id="about" className="py-10 text-white">
       <div className="text-center mt-8">
         <h3 className="text-4xl font-semibold">
-          About<span className="text-cyan-600"> Me</span>
+          👩🏽‍💻 About<span className="text-cyan-600"> Me</span>
         </h3>
         <p className="text-gray-400 my-3 text-lg">My introduction</p>
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <ReadMore>
-                Hi 👋! I'm Ogechi Juliet Uhegbu, also known as OGE. I’m deeply
-                passionate about technology, which led me to earn a BSc in
-                Computer Science & Informatics. This academic journey equipped
-                me with a solid foundation in programming, web development,
-                software engineering principles, and problem-solving. I
-                specialize in building responsive, accessible, and user-friendly
-                web interfaces using technologies like HTML, CSS, JavaScript,
-                React, TypeScript, and Next.js—skills I honed through the Stutern
-                Accelerator and continuous self-learning. I’ve contributed to
-                projects across diverse sectors, including architecture,
-                textiles, and women’s charities, focusing on intuitive and
-                engaging user experiences. As a committed lifelong learner, I
-                actively explore new technologies, frameworks, and best
-                practices. My growth mindset enables me to adapt quickly, solve
-                complex problems creatively, and thrive in fast-paced
-                environments. I genuinely enjoy collaborating with designers,
-                backend developers, and cross-functional teams to bring ideas to
-                life. My development approach emphasizes clarity, teamwork, and
-                empathy. Fun Facts About Me: 🚀I love space, JavaScript,
-                React.js, teamwork, and family time. ❌I dislike comparison,
-                lateness, and procrastination. Long-Term Goal: To become a
-                well-rounded software developer, capable of building scalable
-                applications that solve real-world problems and improve everyday
-                life.
+                Hi 👋! I’m Ogechi Juliet Uhegbu, but you can call me OGE. I’m a
+                Frontend Developer and WordPress Specialist, who thrive at the
+                intersection of design and technology, turning creative ideas
+                into fast, accessible, and responsive digital products. With a
+                background in Computer Science and a passion for clean, scalable
+                code, I bring both structure and creativity to every project. I
+                specialize in building web interfaces with HTML, CSS,
+                JavaScript, React, and Next.js, and I also help businesses
+                unlock the full potential of WordPress through custom themes,
+                performance optimization, and user-friendly design. From startup
+                landing pages to full-scale websites, I focus on delivering
+                seamless user experiences that are as beautiful as they are
+                functional. 🔧 Tech Stack: HTML, CSS, JavaScript, React,
+                Next.js, WordPress, Git, GitHub 🎓 Background: BSc in Computer
+                Science and Informatics 💡 Fun Facts About Me: 🚀 I love space,
+                JavaScript, React.js, teamwork, and quality family time. I
+                dislike comparison, lateness, and procrastination. 🎯Long-Term
+                Goal To become a well-rounded software developer capable of
+                building scalable applications that solve real-world problems
+                and enhance everyday life. Let’s Connect: I'm always open to
+                meaningful collaborations, freelance work, or remote roles that
+                challenge me to grow and build impactful web solutions.
               </ReadMore>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
