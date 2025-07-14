@@ -29,32 +29,32 @@ const steps = [
     options: [
       { value: 1, label: "About us", trigger: 6 },
       { value: 2, label: "Our services", trigger: 7 },
-      { value: 3, label: "Connection", trigger: 8 },
+      { value: 3, label: "Connects", trigger: 8 },
       { value: 4, label: "Contact", trigger: 9 },
     ],
   },
   {
     id: 6,
     message:
-      "OGE is a talented frontend Web Developer and a BSc computer scientist.",
+      "Frontend Developer, CMS specalist(wordpress) and a BSc computer scientist.",
     trigger: 5,
   },
   {
     id: 7,
     message:
-      "Our services includes Frontend Web development, Search Engine Optimization(SEO), Web development, Technical writing, Unit Testing, Data Entry, and Project management.",
+      "Responsive Frontend Development, Search Engine Optimization(SEO), Custom WordPress Solutions, Technical writing, Unit Testing and Scalable, Clean Code.",
     trigger: 5,
   },
   {
     id: 8,
     message:
-      "You can connect with OGE via LinkedIn @oge-dev or X @oge_dev. To stay updated on the latest projects and developments!",
+      "You can connect with OGE via all social media handles @geliettech.",
     trigger: 5,
   },
   {
     id: 9,
     message:
-      "You can reach out to us via email at julietogechi27@gmail.com. Whether you have projects for us to complete for you, questions, collaboration ideas, or just want to say hello, We would love to hear from you!",
+      "Email us @julietogechi27@gmail.com.",
     trigger: 5,
   },
 ];
