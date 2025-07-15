@@ -53,13 +53,13 @@ const Project = () => {
       img: project6,
       name: "Simple Calculator",
       github_link: "https://github.com/geliettech/Simple-calculator",
-      live_link: "https://geliettech.github.io/Simple-calculator/",
+      live_link: "https://simple-calculator-67916f.netlify.app/",
     },
     {
       img: project7,
       name: "Baby Zoo Quiz",
       github_link: "https://github.com/geliettech/Baby-Zoo-Quiz",
-      live_link: "https://geliettech.github.io/Baby-Zoo-Quiz/index.html",
+      live_link: "https://baby-zoo-quiz.vercel.app/",
     },
     {
       img: project5,
@@ -78,7 +78,7 @@ const Project = () => {
       name: "Todo List App",
       github_link:
         "https://github.com/geliettech/TodoList-App",
-      live_link: "https://geliettech.github.io/TodoList-App/",
+      live_link: "https://task-manager-byoge.netlify.app/",
     },
   ];
   return (
