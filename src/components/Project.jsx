@@ -44,12 +44,6 @@ const Project = () => {
       live_link: "https://social-links-profile-oge.vercel.app/",
     },
     {
-      img: project4,
-      name: "Netflix LandingPage Clone",
-      github_link: "https://github.com/geliettech/NetflixClone.git",
-      live_link: "https://geliettech.github.io/NetflixClone/",
-    },
-    {
       img: project6,
       name: "Simple Calculator",
       github_link: "https://github.com/geliettech/Simple-calculator",
@@ -72,6 +66,12 @@ const Project = () => {
       name: "Star Wars movies",
       github_link: "https://github.com/geliettech/Star-Wars-franchise/tree/movies",
       live_link: "https://star-wars-movies-byoge.netlify.app/",
+    },
+    {
+      img: project4,
+      name: "Netflix LandingPage Clone",
+      github_link: "https://github.com/geliettech/NetflixClone.git",
+      live_link: "https://chic-gelato-cdfaa8.netlify.app/",
     },
     {
       img: project1,
