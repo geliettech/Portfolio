@@ -14,6 +14,8 @@ import {
   SiTypescript,
   SiTailwindcss,
   SiMui,
+  SiPython,
+  SiDjango,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -31,6 +33,8 @@ const Skills = () => {
     { icon: <SiNextdotjs />, skillname: "Next.js", level: "Intermediate", count: 50 },
     { icon: <SiTailwindcss />, skillname: "Tailwind CSS", level: "Intermediate", count: 60 },
     { icon: <SiMui />, skillname: "Material UI", level: "Intermediate", count: 60 },
+     { icon: <SiPython />, skillname: "Python", level: "Beginner", count: 40 },
+    { icon: <SiDjango />, skillname: "Django", level: "Beginner", count: 40 },
   ];
 
   return (

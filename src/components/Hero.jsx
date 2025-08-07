@@ -7,6 +7,7 @@ const Hero = () => {
    {social_logo: "logo-github", social_link: "https://github.com/geliettech"} ,
    {social_logo: "logo-linkedin", social_link: "https://www.linkedin.com/in/geliettech"} ,
    {social_logo: "logo-twitter", social_link: "https://x.com/geliettech"} ,
+   {social_logo: "logo-medium", social_link: "https://geliettech.medium.com/"} ,
   ];
 
   return (
@@ -30,7 +31,7 @@ const Hero = () => {
             My name is <span>Ogechi Juliet Uhegbu</span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-10 mt-4 font-bold text-gray-600">
-            Frontend / Web Developer
+            Frontend Software Developer<br />& Web Programmer
           </h4>
           <a href="#contact">
             <button className="btn-primary mt-8">Contact Me</button>

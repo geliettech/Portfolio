@@ -16,7 +16,7 @@ const Hireme = () => {
           Need a frontend / Web developer?
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-          I build fast, accessible, and user-friendly web solutions. I create responsive interfaces with HTML, CSS, JavaScript, React, and Next.js, and craft high-performing WordPress sites using custom themes and plugins. Open to freelance projects, remote roles, and meaningful collaborations.
+         I'm actively open to remote or onsite opportunities where I can contribute to building impactful web solutions while growing as a developer.
           </p>
           <a href="#contact">
             <button className="btn-primary mt-10">Say Hello</button>

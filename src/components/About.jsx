@@ -2,23 +2,23 @@ import React, { useState } from "react";
 import aboutImg from "../assets/images/about.png";
 import CV from "../assets/Frontend-Developer-OGECHI-JULIET-UHEGBU.pdf";
 
-const ReadMore = ({ children }) => {
-  const text = children;
-  const [isReadMore, setIsReadMore] = useState(true);
+// const ReadMore = ({ children }) => {
+//   const text = children;
+// const [isReadMore, setIsReadMore] = useState(true);
 
-  const toggleReadMore = () => {
-    setIsReadMore(!isReadMore);
-  };
+// const toggleReadMore = () => {
+//   setIsReadMore(!isReadMore);
+// };
 
-  return (
-    <p className="lg:text-left text-justify leading-7 md:w-11/12 w-full mx-auto">
-      {isReadMore ? text.slice(0, 400) : text}
-      <span onClick={toggleReadMore} className="text-cyan-600 cursor-pointer">
-        {isReadMore ? "...read more" : " show less"}
-      </span>
-    </p>
-  );
-};
+//   return (
+//     <p className="lg:text-left text-justify leading-7 md:w-11/12 w-full mx-auto">
+//       {isReadMore ? text.slice(0, 400) : text}
+//       <span onClick={toggleReadMore} className="text-cyan-600 cursor-pointer">
+//         {isReadMore ? "...read more" : " show less"}
+//       </span>
+//     </p>
+//   );
+// };
 
 const About = () => {
   const info = [
@@ -37,28 +37,21 @@ const About = () => {
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
             <div className="text-gray-300 my-3">
-              <ReadMore>
-                Hi 👋! I’m Ogechi Juliet Uhegbu, but you can call me OGE. I’m a
-                Frontend Developer and WordPress Specialist who thrives at the
-                intersection of design and technology. I turn creative ideas
-                into fast, accessible, and responsive digital products. With a
-                background in Computer Science and a passion for writing clean,
-                scalable code, I bring both structure and creativity to every
-                project. I specialize in building web interfaces using HTML,
-                CSS, JavaScript, React, and Next.js, and I help businesses
-                unlock the full potential of WordPress through custom themes,
-                performance optimization, and intuitive design. From startup
-                landing pages to full-scale websites, my focus is on delivering
-                seamless user experiences that are both functional and visually
-                engaging. I'm passionate about software technologies,
-                collaborative teamwork, and finding time for quality moments
-                with family. My long-term goal is to become a well-rounded
-                software developer capable of building scalable applications
-                that solve real-world problems and improve everyday life. I'm
-                always open to meaningful collaborations, freelance
-                opportunities, and remote roles that challenge me to grow and
-                create impactful web solutions.
-              </ReadMore>
+              <div className="lg:text-left text-justify leading-7 md:w-11/12 w-full mx-auto">
+                <p>Hi, I'm Ogechi, but you can call me Oge.</p>
+                <p>
+                   I'm a dynamic Frontend Software Developer and Web Programmer with a passion for building responsive, scalable web applications that are just as maintainable as they are beautiful.
+                </p>
+                <p>
+                  With over 2 years of experience in frontend software development and growing expertise in web programming systems, I've worked across startups and global teams to ship high-impact products using React, Next.js, Typescript, TailwindCSS and MaterialUI, among other modern tools. I care deeply about performance, accessibility and clean code.
+                </p>
+                <p>
+                 Currently, I'm diving deeper into Web programming, Software Engineering and System Designs. I regularly document my learnings and dev journey right here on LinkedIn and medium.
+                </p>
+                <p>
+                 I'm currently open for remote or onsite opportunities that challenge me to grow and build impactful web solutions. If your team values clean code, good docs, cross-functional collaboration, and continuous learning, let's talk!
+                </p>
+              </div>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
                   <div key={content.text}>

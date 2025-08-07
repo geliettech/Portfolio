@@ -3,12 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import project_ from "../assets/images/project11.png";
 import project__ from "../assets/images/project22.png";
 import project from "../assets/images/project.png";
-import project1 from "../assets/images/project-1.png";
 import project2 from "../assets/images/project-2.png";
-import project3 from "../assets/images/project-3.png";
-import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
-import project6 from "../assets/images/project-6.png";
 import project7 from "../assets/images/Project7.png";
 import projectPerson from "../assets/images/projectPerson.png";
 import "swiper/css";
@@ -38,18 +34,6 @@ const Project = () => {
       live_link: "https://launch-countdown-timer-365e6e.netlify.app/",
     },
     {
-      img: project3,
-      name: "Social Links Profile",
-      github_link: "https://github.com/geliettech/Social-Links-Profile",
-      live_link: "https://social-links-profile-oge.vercel.app/",
-    },
-    {
-      img: project6,
-      name: "Simple Calculator",
-      github_link: "https://github.com/geliettech/Simple-calculator",
-      live_link: "https://simple-calculator-67916f.netlify.app/",
-    },
-    {
       img: project7,
       name: "Baby Zoo Quiz",
       github_link: "https://github.com/geliettech/Baby-Zoo-Quiz",
@@ -66,19 +50,6 @@ const Project = () => {
       name: "Star Wars movies",
       github_link: "https://github.com/geliettech/Star-Wars-franchise/tree/movies",
       live_link: "https://star-wars-movies-byoge.netlify.app/",
-    },
-    {
-      img: project4,
-      name: "Netflix LandingPage Clone",
-      github_link: "https://github.com/geliettech/NetflixClone.git",
-      live_link: "https://chic-gelato-cdfaa8.netlify.app/",
-    },
-    {
-      img: project1,
-      name: "Todo List App",
-      github_link:
-        "https://github.com/geliettech/TodoList-App",
-      live_link: "https://task-manager-byoge.netlify.app/",
     },
   ];
   return (
