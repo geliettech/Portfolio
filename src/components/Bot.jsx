@@ -6,7 +6,7 @@ import botAvatarImage from "../assets/Favicon.ico";
 const steps = [
   {
     id: 1,
-    message: "Hello! I am OGE, your friendly chatbot.",
+    message: "Hello! I am OGEbot, your friendly chatbot.",
     trigger: 2,
   },
   {
@@ -27,7 +27,7 @@ const steps = [
   {
     id: 5,
     options: [
-      { value: 1, label: "About us", trigger: 6 },
+      { value: 1, label: "About OGE", trigger: 6 },
       { value: 2, label: "Our services", trigger: 7 },
       { value: 3, label: "Connects", trigger: 8 },
       { value: 4, label: "Contact", trigger: 9 },
@@ -36,13 +36,13 @@ const steps = [
   {
     id: 6,
     message:
-      "Frontend Developer, CMS specalist(wordpress) and a BSc computer scientist.",
+      "Frontend Software Developer & Web Programmer. She builds fast scalable web Solutions",
     trigger: 5,
   },
   {
     id: 7,
     message:
-      "Responsive Frontend Development, Search Engine Optimization(SEO), Custom WordPress Solutions, Technical writing, Unit Testing and Scalable, Clean Code.",
+      "Frontend Development, Web Development, Search Engine Optimization(SEO), Custom WordPress Solutions, Technical writing, Unit Testing and Scalable, Clean Code.",
     trigger: 5,
   },
   {
@@ -54,7 +54,7 @@ const steps = [
   {
     id: 9,
     message:
-      "Email us @julietogechi27@gmail.com.",
+      "Email us @ogechi.uhegbu@outlook.com",
     trigger: 5,
   },
 ];
