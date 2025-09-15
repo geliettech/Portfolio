@@ -1,11 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import project_ from "../assets/images/project11.png";
-import project__ from "../assets/images/project22.png";
-import project from "../assets/images/project.png";
-import project2 from "../assets/images/project-2.png";
-import project5 from "../assets/images/project-5.png";
-import project7 from "../assets/images/Project7.png";
+import project1 from "../assets/images/project.png";
+import project2 from "../assets/images/project11.png";
+import project3 from "../assets/images/project-2.png";
+import project4 from "../assets/images/Project7.png";
+import project5 from "../assets/images/project22.png";
+import project6 from "../assets/images/project-5.png";
 import projectPerson from "../assets/images/projectPerson.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,42 +14,42 @@ import { Pagination, Autoplay } from "swiper/modules";
 const Project = () => {
   const projects = [
     {
+      img: project1,
+      name: "Dukka LaunchPad",
+      github_link: "https://github.com/geliettech/KeySwift",
+      live_link: "https://dukka-launch-pad.vercel.app/",
+    },
+    {
       img: project2,
+      name: "Halim",
+      github_link: "https://github.com/geliettech/halim",
+      live_link: "https://halim-geliettech.netlify.app/",
+    },
+    {
+      img: project3,
       name: "My Portfolio",
       github_link:
         "https://github.com/geliettech/Portfolio",
-      live_link: "https://uhegbu-ogechi-juliet.vercel.app/",
+      live_link: "https://ogechiuhegbu.vercel.app/",
     },
     {
-      img: project__,
-      name: "Rest Countries API",
-      github_link:
-        "https://github.com/geliettech/rest-countries-api-with-color-theme-switcher",
-      live_link: "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
-    },
-    {
-      img: project_,
-      name: "Launch Countdown Timer",
-      github_link: "https://github.com/geliettech/Launch-Countdown-Timer",
-      live_link: "https://launch-countdown-timer-365e6e.netlify.app/",
-    },
-    {
-      img: project7,
+      img: project4,
       name: "Baby Zoo Quiz",
       github_link: "https://github.com/geliettech/Baby-Zoo-Quiz",
       live_link: "https://baby-zoo-quiz.vercel.app/",
     },
     {
       img: project5,
-      name: "Profile Search app",
-      github_link: "https://github.com/geliettech/Profile-Search-App",
-      live_link: "https://profile-search-app-byoge.vercel.app/",
+      name: "Countries Explorer",
+      github_link:
+        "https://github.com/geliettech/rest-countries-api-with-color-theme-switcher",
+      live_link: "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
     },
     {
-      img: project,
-      name: "Star Wars movies",
-      github_link: "https://github.com/geliettech/Star-Wars-franchise/tree/movies",
-      live_link: "https://star-wars-movies-byoge.netlify.app/",
+      img: project6,
+      name: "Profile Searcher",
+      github_link: "https://github.com/geliettech/Profile-Search-App",
+      live_link: "https://profile-search-app-byoge.vercel.app/",
     },
   ];
   return (
@@ -64,7 +64,7 @@ const Project = () => {
       <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative">
         <div className="lg:w-2/3 w-full">
           <Swiper
-            slidesperview={1.2}
+            slidesPerView={1.2}
             spaceBetween={20}
             breakpoints={{
               768: {
