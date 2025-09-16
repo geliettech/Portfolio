@@ -1,11 +1,9 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import project1 from "../assets/images/project.png";
-import project2 from "../assets/images/project11.png";
-import project3 from "../assets/images/project-2.png";
-import project4 from "../assets/images/Project7.png";
-import project5 from "../assets/images/project22.png";
-import project6 from "../assets/images/project-5.png";
+import project from "../assets/images/project.png";
+import project1 from "../assets/images/project1.png";
+import project2 from "../assets/images/project2.png";
+import project3 from "../assets/images/Project3.png";
 import projectPerson from "../assets/images/projectPerson.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,42 +12,30 @@ import { Pagination, Autoplay } from "swiper/modules";
 const Project = () => {
   const projects = [
     {
-      img: project1,
-      name: "Dukka LaunchPad",
-      github_link: "https://github.com/geliettech/KeySwift",
-      live_link: "https://dukka-launch-pad.vercel.app/",
-    },
-    {
-      img: project2,
-      name: "Halim",
-      github_link: "https://github.com/geliettech/halim",
-      live_link: "https://halim-geliettech.netlify.app/",
-    },
-    {
-      img: project3,
+      img: project,
       name: "My Portfolio",
       github_link:
         "https://github.com/geliettech/Portfolio",
       live_link: "https://ogechiuhegbu.vercel.app/",
     },
     {
-      img: project4,
-      name: "Baby Zoo Quiz",
-      github_link: "https://github.com/geliettech/Baby-Zoo-Quiz",
-      live_link: "https://baby-zoo-quiz.vercel.app/",
-    },
-    {
-      img: project5,
+      img: project1,
       name: "Countries Explorer",
       github_link:
         "https://github.com/geliettech/rest-countries-api-with-color-theme-switcher",
       live_link: "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
     },
     {
-      img: project6,
+      img: project2,
       name: "Profile Searcher",
       github_link: "https://github.com/geliettech/Profile-Search-App",
       live_link: "https://profile-search-app-byoge.vercel.app/",
+    },
+    {
+      img: project3,
+      name: "Baby Zoo Quiz",
+      github_link: "https://github.com/geliettech/Baby-Zoo-Quiz",
+      live_link: "https://baby-zoo-quiz.vercel.app/",
     },
   ];
   return (

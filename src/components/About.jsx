@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import aboutImg from "../assets/images/about.png";
-import CV from "../assets/Software-Development-OGECHI-JULIET-UHEGBU.pdf";
+import CV from "../assets/OGECHI_JULIET_UHEGBU_FrontendDeveloperCV.pdf";
 
 
 
