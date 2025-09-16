@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import project from "../assets/images/project.png";
 import project1 from "../assets/images/project1.png";
 import project2 from "../assets/images/project2.png";
-import project3 from "../assets/images/Project3.png";
+import project3 from "../assets/images/project3.png";
 import projectPerson from "../assets/images/projectPerson.png";
 import "swiper/css";
 import "swiper/css/pagination";
