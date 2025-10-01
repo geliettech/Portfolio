@@ -45,7 +45,7 @@ const Contact = () => {
   };
 
   const contact_info = [
-    { logo: "mail", text: "ogechi.uhegbu@outlook.com" },
+    { logo: "mail", text: "julietogechi@gmail.com" },
     {
       logo: "location",
       text: "Nigeria",
