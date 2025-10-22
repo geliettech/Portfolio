@@ -24,7 +24,7 @@ const About = () => {
               <div className="text-left leading-7 md:w-11/12 w-full mx-auto">
                 <p>Hi, I'm <b>Ogechi</b>, but you can call me <b>Oge</b>.</p>
                 <p>
-                  I'm a dynamic <b>Frontend Developer</b> and <b>Web Developer</b> with a passion for <b>building responsive</b>, <b>scalable web applications</b> that are just as maintainable as they are beautiful.
+                  I'm a dynamic <b>Frontend Developer</b> with a passion for <b>building responsive</b>, <b>scalable web applications</b> that are just as maintainable as they are beautiful.
                 </p><br />
                 <p>
                   With over <b></b>2 years of experience in frontend development and growing expertise in web development systems, I've worked across startups and global teams to ship high-impact products using <b>React</b>, <b>Next.js</b>, <b>Typescript</b>, <b>TailwindCSS</b> and <b>MaterialUI</b>, <b></b>among other modern tools. I care deeply about performance, accessibility and clean code.
