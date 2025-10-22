@@ -24,13 +24,13 @@ const About = () => {
               <div className="text-left leading-7 md:w-11/12 w-full mx-auto">
                 <p>Hi, I'm <b>Ogechi</b>, but you can call me <b>Oge</b>.</p>
                 <p>
-                  I'm a dynamic <b>Frontend Software Developer</b> and <b>Web Programmer</b> with a passion for <b>building responsive</b>, <b>scalable web applications</b> that are just as maintainable as they are beautiful.
+                  I'm a dynamic <b>Frontend Developer</b> and <b>Web Developer</b> with a passion for <b>building responsive</b>, <b>scalable web applications</b> that are just as maintainable as they are beautiful.
                 </p><br />
                 <p>
-                  With over <b></b>2 years of experience in frontend software development and growing expertise in web programming systems, I've worked across startups and global teams to ship high-impact products using <b>React</b>, <b>Next.js</b>, <b>Typescript</b>, <b>TailwindCSS</b> and <b>MaterialUI</b>, <b></b>among other modern tools. I care deeply about performance, accessibility and clean code.
+                  With over <b></b>2 years of experience in frontend development and growing expertise in web development systems, I've worked across startups and global teams to ship high-impact products using <b>React</b>, <b>Next.js</b>, <b>Typescript</b>, <b>TailwindCSS</b> and <b>MaterialUI</b>, <b></b>among other modern tools. I care deeply about performance, accessibility and clean code.
                 </p><br />
                 <p>
-                  Currently, I'm diving deeper into <b>Web programming</b>, <b>Software Engineering</b> and <b>System Designs</b>. I regularly document my learnings and dev journey on <b>LinkedIn</b>, <b>medium</b> and <b>other social media platforms</b>.
+                  Currently, I'm diving deeper into <b>Web Development</b>, <b>Software Engineering</b> and <b>System Designs</b>. I regularly document my learnings and dev journey on <b>LinkedIn</b>, <b>medium</b> and <b>other social media platforms</b>.
                 </p><br />
                 <p>
                   I'm currently open for remote or onsite opportunities that challenge me to grow and build impactful web solutions. If your team values clean code, good docs, cross-functional collaboration, and continuous learning, <b>let's talk!</b>

@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { RiMailSendLine } from "react-icons/ri";
+import { IoLocationOutline } from "react-icons/io5";
 
 const Contact = () => {
   const [form, setForm] = useState({ fullname: "", email: "", message: "" });
@@ -45,9 +47,9 @@ const Contact = () => {
   };
 
   const contact_info = [
-    { logo: "mail", text: "julietogechi@gmail.com" },
+    { logo: <RiMailSendLine />, text: "julietogechi@gmail.com" },
     {
-      logo: "location",
+      logo: <IoLocationOutline />,
       text: "Nigeria",
     },
   ];
@@ -100,7 +102,7 @@ const Contact = () => {
                   text-left gap-4 flex-wrap items-center"
               >
                 <div className="min-w-[3.5rem]  text-3xl min-h-[3.5rem] flex items-center justify-center text-white bg-cyan-600 rounded-full">
-                  <ion-icon name={contact.logo}></ion-icon>
+                 {contact.logo}
                 </div>
                 <p className="md:text-base text-sm  break-words">
                   {contact.text}

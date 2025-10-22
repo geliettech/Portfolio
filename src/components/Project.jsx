@@ -4,6 +4,8 @@ import project from "../assets/images/project.png";
 import project1 from "../assets/images/project-1.png";
 import project2 from "../assets/images/project-2.png";
 import project3 from "../assets/images/project-3.png";
+import project4 from "../assets/images/project-4.png";
+import project5 from "../assets/images/project-5.png";
 import projectPerson from "../assets/images/projectPerson.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -13,29 +15,40 @@ const Project = () => {
   const projects = [
     {
       img: project,
+      name: "Mystic Cookie",
+      github_link: "https://github.com/geliettech/mystic-cookie",
+      live_link: "https://mystic-cookie.netlify.app/",
+    },
+    {
+      img: project1,
       name: "My Portfolio",
       github_link:
         "https://github.com/geliettech/Portfolio",
       live_link: "https://ogechiuhegbu.vercel.app/",
     },
     {
-      img: project1,
+      img: project2,
       name: "Countries Explorer",
       github_link:
         "https://github.com/geliettech/rest-countries-api-with-color-theme-switcher",
       live_link: "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
     },
     {
-      img: project2,
+      img: project3,
       name: "Profile Searcher",
       github_link: "https://github.com/geliettech/Profile-Search-App",
       live_link: "https://profile-search-app-byoge.vercel.app/",
     },
     {
-      img: project3,
+      img: project4,
       name: "Baby Zoo Quiz",
       github_link: "https://github.com/geliettech/Baby-Zoo-Quiz",
       live_link: "https://baby-zoo-quiz.vercel.app/",
+    },{
+      img: project5,
+      name: "Standard Calculator",
+      github_link: "https://github.com/geliettech/standard-calculator",
+      live_link: "https://simple-calculator-67916f.netlify.app/",
     },
   ];
   return (

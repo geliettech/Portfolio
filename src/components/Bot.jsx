@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ChatBot from "react-simple-chatbot";
 import { ThemeProvider } from "styled-components";
 import botAvatarImage from "../assets/Favicon.ico"; 
+import { AiFillMessage } from "react-icons/ai";
 
 const steps = [
   {
@@ -102,7 +103,7 @@ const Bot = () => {
             className="absolute top-0 right-0 z-[1002] p-2 text-2xl text-white rounded-md"
             onClick={toggleChatbot}
           >
-            <ion-icon name="close-outline"></ion-icon>
+            <AiFillMessage />
           </button>
         </div>
       )}
