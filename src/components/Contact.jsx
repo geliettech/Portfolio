@@ -47,7 +47,7 @@ const Contact = () => {
   };
 
   const contact_info = [
-    { logo: <RiMailSendLine />, text: "julietogechi@gmail.com" },
+    { logo: <RiMailSendLine />, text: "julietogechi27@gmail.com" },
     {
       logo: <IoLocationOutline />,
       text: "Nigeria",
