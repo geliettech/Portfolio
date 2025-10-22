@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import ChatBot from "react-simple-chatbot";
 import { ThemeProvider } from "styled-components";
-import botAvatarImage from "../assets/Favicon.ico"; 
-import { AiFillMessage } from "react-icons/ai";
+import botAvatarImage from "../assets/Favicon.ico";
+import { IoChatbubbleEllipses } from "react-icons/io5";
+import { IoIosCloseCircleOutline } from "react-icons/io";
 
 const steps = [
   {
     id: 1,
-    message: "Hello! I am OGEbot, your friendly chatbot.",
+    message: "Hello! I am ogebot, your friendly chatbot.",
     trigger: 2,
   },
   {
@@ -37,7 +38,7 @@ const steps = [
   {
     id: 6,
     message:
-      "Frontend Software Developer & Web Programmer. She builds fast scalable web Solutions",
+      "Frontend Developer & Web Programmer. She builds fast scalable web Solutions",
     trigger: 5,
   },
   {
@@ -55,7 +56,7 @@ const steps = [
   {
     id: 9,
     message:
-      "Email us @ogechi.uhegbu@outlook.com",
+      "Email us @julietogechi27@gmail.com",
     trigger: 5,
   },
 ];
@@ -89,7 +90,7 @@ const Bot = () => {
         className="fixed bottom-5 sm:right-8 right-4 z-[999] cursor-pointer text-white text-4xl bg-cyan-600 w-16 h-16 flex items-center justify-center rounded-full animate-bounce"
         onClick={toggleChatbot}
       >
-        <ion-icon name="chatbubble-ellipses"></ion-icon>
+        <IoChatbubbleEllipses />
       </div>
 
       {/* Popup Chatbot */}
@@ -103,7 +104,7 @@ const Bot = () => {
             className="absolute top-0 right-0 z-[1002] p-2 text-2xl text-white rounded-md"
             onClick={toggleChatbot}
           >
-            <AiFillMessage />
+            <IoIosCloseCircleOutline />
           </button>
         </div>
       )}
